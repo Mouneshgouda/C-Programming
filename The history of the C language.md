@@ -12,7 +12,8 @@ The **C programming language** was developed in **1972** by **Dennis Ritchie** a
 - **Purpose:** To overcome the limitations of earlier programming languages such as **ALGOL**, **BCPL**, and **B**.
 
 Dennis Ritchie is widely recognized as the **founder of the C language** and is often referred to as the **Father of Programming**.
-https://miro.medium.com/v2/resize:fit:440/format:webp/1*kMo2Smf_NDHDXpab4s02IA.jpeg
+<img width="220" height="283" alt="image" src="https://github.com/user-attachments/assets/2d2fc125-324a-4294-a328-55391ac31c08" />
+
 ---
 
 ## ⚙️ Characteristics of C
