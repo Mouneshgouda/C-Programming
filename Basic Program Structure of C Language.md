@@ -1,8 +1,7 @@
 # 🧩 Basic Program Structure of C Language
 
 From the given image below, you can see the basic program structure of C language:
-![Uploading image.png…]()
-
+<img width="958" height="1080" alt="image" src="https://github.com/user-attachments/assets/56a383e6-91ef-4ca0-b6a0-da91255b582e" />
 
 ---
 
