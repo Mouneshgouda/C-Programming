@@ -73,3 +73,37 @@ The **linker** merges all the **object code** from multiple modules and librarie
 ---
 
 <img width="900" height="800" alt="image" src="https://github.com/user-attachments/assets/70e5106d-dcb9-45ec-b9cc-163ba99a690d" />
+
+# 🚀 Execution Process
+
+This is the phase where the **compiled program** is actually **run by the computer**.
+
+---
+
+## 🧩 Steps Involved
+
+1. The **operating system** loads the **executable file** into memory.  
+2. The **CPU** begins executing instructions from the **binary file**.  
+3. **Output** is generated based on the logic written in the program.
+
+---
+
+## 🎯 Purpose
+
+To **perform the tasks** defined in your code.
+
+---
+
+## 🖥️ Output
+
+The **results of the program**, such as:
+
+- Printed text  
+- Calculations  
+- Any other specified operation
+
+---
+
+> ✅ The execution process is where your program comes to life — transforming written code into real actions performed by the computer.
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/b473bfdb-199a-4665-9b8c-f3d91c46cdd7" />
+
