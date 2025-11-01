@@ -11,15 +11,15 @@ These are essential for writing meaningful and functional C programs.
 They are part of the C language syntax and **cannot be used as identifiers (like variable names or function names).**
 
 Examples of keywords in C include:
-
-auto break case char const
-continue default do double else
-enum extern float for goto
-if int long register return
-short signed sizeof static struct
-switch typedef union unsigned void
-volatile while
-
+```c
+- auto break case char const
+- continue default do double else
+- enum extern float for goto
+- if int long register return
+- short signed sizeof static struct
+- switch typedef union unsigned void
+- volatile while
+```
 
 > 🧠 **Note:** All keywords in C are written in **lowercase**.
 
