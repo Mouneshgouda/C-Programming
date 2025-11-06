@@ -14,3 +14,69 @@ int main() {
     return 0;
 }
 ```
+#2
+```c
+#include <stdio.h>
+
+int main() {
+    int m1, m2, m3;
+    int total;
+    float average;
+
+    // Read three integer marks
+    scanf("%d %d %d", &m1, &m2, &m3);
+
+    // Calculate total and average
+    total = m1 + m2 + m3;
+    average = total / 3.0;  // use 3.0 to ensure floating-point division
+
+    // Print output in required format
+    printf("MARK1: %d\n", m1);
+    printf("MARK2: %d\n", m2);
+    printf("MARK3: %d\n", m3);
+    printf("TOTAL : %d\n", total);
+    printf("AVERAGE: %.2f\n", average);
+
+    return 0;
+}
+```
+#3
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, temp;
+
+    // Read two integers
+    scanf("%d %d", &a, &b);
+
+    // Print values before swapping
+    printf("Before: %d %d\n", a, b);
+
+    // Swap using a temporary variable
+    temp = a;
+    a = b;
+    b = temp;
+
+    // Print values after swapping
+    printf("After: %d %d\n", a, b);
+
+    return 0;
+}
+```
+#4
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    // Read two integers separated by a comma (no spaces)
+    scanf("%d,%d", &a, &b);
+
+    // Print in the required format
+    printf("a=%d, b=%d\n", a, b);
+
+    return 0;
+}
+```
