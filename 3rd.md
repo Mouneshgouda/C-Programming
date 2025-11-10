@@ -58,3 +58,32 @@ F
 ## ⚙️ Constraints
 - `0 ≤ pct ≤ 100`
 - Input is always an integer.
+
+- Soution
+```c
+#include<stdio.h>
+int main(){
+    int pct;
+    scanf("%d",&pct);
+    if (pct>=90){
+        printf("A\n");
+    }
+    else if (pct>=80){
+        printf("B\n");
+    }
+    else if (pct>=70){
+        printf("C\n");
+    }
+    else if (pct>=60){
+        printf("D\n");
+    }
+    else if (pct>=40){
+        printf("E\n");
+    }
+    else{
+        printf("F\n");
+    }
+
+}
+
+```
