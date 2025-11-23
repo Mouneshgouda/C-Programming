@@ -3,8 +3,7 @@
 
 int main() {
     FILE *fn;
-    fn=fopen("Hi.txt","r");
-    line[1000];
+    fn=fopen("Hi.txt","w");
     printf("creat");
 
 }
