@@ -48,6 +48,23 @@ int main() {
 }
 ```
 
+```c
+#include <stdio.h>
+int main(){
+    FILE *fn=fopen("Mounesh.txt","r");
+    char line[1000];
+
+    while(fgets(line,sizeof(line),fn)){
+        printf("%s\n",line);
+
+        fseek(fn,0,SEEK_END);
+        long size=ftell(fn);
+        printf("%ld",size);
+    }
+    
+}
+```
+
 ## binary
 
 ```c
