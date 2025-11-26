@@ -1,7 +1,5 @@
 # Application Layer Topics
 
----
-
 🌐 **Domain Name Space (DNS)**  
 The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or any resource connected to the Internet or a private network. It translates human-readable domain names (like google.com) into machine-readable IP addresses (like 142.250.191.46).
 
@@ -40,11 +38,12 @@ FTP is a standard network protocol used to transfer computer files between a cli
 
 ---
 
-💻 **World Wide Web (WWW) and HTTP**
-
+💻 **World Wide Web (WWW) and HTTP**  
 The World Wide Web (WWW) is an information system where documents and other web resources are identified by URLs, interconnected by hypertext links, and can be accessed via the Internet.
 
 ### HTTP (Hypertext Transfer Protocol)
+HTTP is the foundation of data communication for the World Wide Web.
+
 **Purpose:** It defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.
 
 **Client-Server Model:** The client (usually a web browser) sends an HTTP request to a server, and the server returns an HTTP response.
@@ -81,10 +80,13 @@ PGP is an encryption program that provides cryptographic privacy and authenticat
 PGP uses a combination of public-key cryptography (for key exchange) and symmetric-key cryptography (for message encryption).
 
 ---
-<img width="3999" height="1748" alt="image" src="https://github.com/user-attachments/assets/74658c00-b79e-4abf-b96c-f095f3b1595b" />
+
+<img width="3999" height="1748" alt="image" src="https://github.com/user-attachments/assets/f30c34c1-50ce-4de9-8fca-905456632c61" />
+
+---
 
 
-🔐 **SSH (Secure Shell)**
+🔐 **SSH (Secure Shell)**  
 SSH is a cryptographic network protocol for operating network services securely over an unsecured network.
 
 **Purpose:** It is primarily used for remote command-line login and remote command execution, replacing insecure protocols like Telnet.
@@ -92,3 +94,6 @@ SSH is a cryptographic network protocol for operating network services securely 
 **Security:** SSH uses public-key cryptography for authenticating the remote computer and optionally allows the user to be authenticated using a password or public-key. All communications are encrypted.
 
 **Applications:** Secure file transfer (SFTP/SCP), running remote applications.
+
+---
+
