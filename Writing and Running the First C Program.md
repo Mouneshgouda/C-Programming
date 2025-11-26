@@ -1,99 +1,113 @@
-# Application Layer Topics
+# 🌐 Application Layer Topics
 
-🌐 **Domain Name Space (DNS)**  
-The Domain Name System (DNS) is a hierarchical and decentralized naming system for computers, services, or any resource connected to the Internet or a private network. It translates human-readable domain names (like google.com) into machine-readable IP addresses (like 142.250.191.46).
-
-### Key Concepts:
-**Domain Name Space (DNS in Internet):** This is the structure of the naming system, forming an inverted tree. At the top is the root, followed by Top-Level Domains (TLDs) (e.g., .com, .org, .net), then Second-Level Domains (e.g., google), and so on. Every node in the tree is a domain.
-
-**Resolution:** When a user types a URL, a DNS Resolver queries DNS servers to find the corresponding IP address. This process is called name resolution.
-
-**Types of DNS Records:** These store information about the domain, such as A records (IP address mapping), MX records (mail exchange servers), and CNAME records (canonical names/aliases).
+This document provides a concise overview of key **Application Layer protocols and services**.
 
 ---
 
-📧 **Electronic Mail (Email)**  
-Electronic mail is one of the most widely used network services. It allows users to send and receive messages electronically.
+## **Domain Name Space (DNS)**
 
-### Key Protocols:
-**SMTP (Simple Mail Transfer Protocol):** This is the standard protocol used for sending email across the internet. It handles the transfer of mail from the sender's mail client to the sender's mail server, and then from the sender's mail server to the recipient's mail server.
+The **Domain Name System (DNS)** is a hierarchical and decentralized naming system used to translate human-readable domain names (like `google.com`) into machine-readable IP addresses (like `142.250.191.46`).
 
-**POP3 (Post Office Protocol version 3):** Used by a local email client to retrieve email from a remote server. Historically, it often downloaded and deleted the mail from the server.
+### **Key Concepts**
+- **Domain Name Space:**  
+  The DNS structure is an inverted tree:
+  - **Root**
+  - **Top-Level Domains (TLDs):** `.com`, `.org`, `.net`
+  - **Second-Level Domains:** e.g., `google`, `amazon`
+  - Each node represents a domain.
 
-**IMAP (Internet Message Access Protocol):** A more modern protocol for retrieving mail, which allows users to manage and access their email on the server (folders, flags, etc.) without downloading it entirely.
+- **Resolution:**  
+  When a user types a URL, a **DNS Resolver** queries DNS servers to find the correct IP address.
 
----
-
-📁 **File Transfer Protocols**
-
-**FTP (File Transfer Protocol)**  
-FTP is a standard network protocol used to transfer computer files between a client and a server on a computer network.
-
-### Key Feature: FTP uses two separate connections:
-**Control Connection:** For sending commands (e.g., login, change directory). This remains open for the entire session.
-
-**Data Connection:** For transferring the actual file data. This connection is established every time a file is transferred.
-
-**Authentication:** FTP typically requires a username and password, though anonymous FTP is also possible.
+- **DNS Records:**  
+  - **A Record:** Maps domain to IPv4 address  
+  - **MX Record:** Mail exchange server information  
+  - **CNAME Record:** Canonical name/alias for a domain
 
 ---
 
-💻 **World Wide Web (WWW) and HTTP**  
-The World Wide Web (WWW) is an information system where documents and other web resources are identified by URLs, interconnected by hypertext links, and can be accessed via the Internet.
+## 📧 **Electronic Mail (Email)**
 
-### HTTP (Hypertext Transfer Protocol)
-HTTP is the foundation of data communication for the World Wide Web.
+Email allows sending and receiving electronic messages.
 
-**Purpose:** It defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.
-
-**Client-Server Model:** The client (usually a web browser) sends an HTTP request to a server, and the server returns an HTTP response.
-
-**Stateless:** By default, HTTP is stateless, meaning each request is treated independently, and the server doesn't remember previous requests. Cookies are used to maintain state.
+### **Key Protocols**
+- **SMTP (Simple Mail Transfer Protocol):** Sends emails from client to server and between servers.
+- **POP3 (Post Office Protocol v3):** Retrieves email from a server (often downloads and deletes emails).
+- **IMAP (Internet Message Access Protocol):** Manages emails on the server, allowing synchronized access across devices.
 
 ---
 
-🛠️ **Network Management**
+## 📁 **File Transfer Protocols**
 
-### SNMP (Simple Network Management Protocol)
-SNMP is a protocol used for managing and monitoring network devices and their functions on an IP network.
+### **FTP (File Transfer Protocol)**
+Used to transfer files between a client and server.
 
-### Components:
-**Manager:** The central station used by an administrator to monitor the network.
-
-**Agent:** Software running on the managed device (router, server, switch) that collects information and communicates it to the manager.
-
-**Managed Device:** The actual device being monitored.
-
-**Function:** SNMP allows managers to poll agents for information (e.g., interface status, traffic statistics) or receive traps (alerts) from agents when a critical event occurs.
+#### **Key Features**
+- **Two Connections:**
+  - **Control Connection:** Sends commands, stays open during session.
+  - **Data Connection:** Transfers files, created per transfer.
+- **Authentication:** Usually requires a username/password; **anonymous FTP** is also supported.
 
 ---
 
-🔒 **Security Protocols**
+## 💻 **World Wide Web (WWW) and HTTP**
 
-### PGP (Pretty Good Privacy)
-PGP is an encryption program that provides cryptographic privacy and authentication for data communication. It is often used for:
+### **WWW**
+A system of interlinked documents and resources, accessed via URLs.
 
-**Signing:** Verifying the integrity of the message and the identity of the sender.
-
-**Encryption:** Ensuring only the intended recipient can read the message.
-
-PGP uses a combination of public-key cryptography (for key exchange) and symmetric-key cryptography (for message encryption).
-
----
-
-<img width="3999" height="1748" alt="image" src="https://github.com/user-attachments/assets/f30c34c1-50ce-4de9-8fca-905456632c61" />
+### **HTTP (Hypertext Transfer Protocol)**
+- **Purpose:** Defines communication between web clients and servers.
+- **Client-Server Model:** Browser sends a request → Server returns a response.
+- **Stateless:** Each request is independent; **cookies** maintain session info.
 
 ---
 
+## 🛠️ **Network Management**
 
-🔐 **SSH (Secure Shell)**  
-SSH is a cryptographic network protocol for operating network services securely over an unsecured network.
+### **SNMP (Simple Network Management Protocol)**
+Used to manage and monitor network devices.
 
-**Purpose:** It is primarily used for remote command-line login and remote command execution, replacing insecure protocols like Telnet.
+#### **Components**
+- **Manager:** Central monitoring system.
+- **Agent:** Software on device collecting data.
+- **Managed Device:** Router, switch, server, etc.
 
-**Security:** SSH uses public-key cryptography for authenticating the remote computer and optionally allows the user to be authenticated using a password or public-key. All communications are encrypted.
-
-**Applications:** Secure file transfer (SFTP/SCP), running remote applications.
+#### **Function**
+- Poll agents for data (e.g., traffic, status)  
+- Receive **traps** (alerts) for critical events
 
 ---
 
+## 🔒 **Security Protocols**
+
+### **PGP (Pretty Good Privacy)**
+Provides encryption and authentication for secure communication.
+
+#### **Functions**
+- **Signing:** Ensures integrity and sender identity.
+- **Encryption:** Ensures only the intended recipient can read the message.
+
+Uses:
+- **Public-key cryptography** for key exchange  
+- **Symmetric-key cryptography** for message encryption
+
+---
+<img width="3999" height="1748" alt="image" src="https://github.com/user-attachments/assets/22005584-99e7-4975-bd7e-1dd62202c0f7" />
+
+
+## 🔐 **SSH (Secure Shell)**
+
+SSH is a secure protocol for remote access and command execution.
+
+### **Purpose**
+- Replaces insecure protocols like Telnet  
+- Encrypts all transmitted data
+
+### **Security**
+- Host authentication via **public-key cryptography**  
+- User authentication via password or key
+
+### **Applications**
+- Remote command-line login  
+- Secure file transfer (SFTP/SCP)  
+- Running remote applications
