@@ -11,6 +11,7 @@
 9. sort them by using bubble sort new sequence.
 10. Implement a function to copy a string
 11. the system must dynamically manage storage for uneven rows of data—much like a ragged 2D array.
+12. *Precision Code** or a **Regular Code*
 
 ---
 
