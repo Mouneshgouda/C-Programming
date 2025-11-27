@@ -1,7 +1,5 @@
 # 📘 C Program Solutions
 
-This README contains C programs for common basic programming tasks:
-
 1. Fibonacci Series  
 2. Count digits in a number  
 3. Search an element in an array  
