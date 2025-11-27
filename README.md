@@ -5,7 +5,12 @@
 3. Search an element in an array  
 4. Count vowels and consonants  
 5. Find the middle value of an array  
-6. Reverse a string  
+6. Reverse a string
+7. Your task is to write a program that takes the temperature in Celsius as input, converts it to Fahrenheit
+8. Write a program to calculate and display the total electricity bill amount
+9. sort them by using bubble sort new sequence.
+10. Implement a function to copy a string
+11. the system must dynamically manage storage for uneven rows of data—much like a ragged 2D array.
 
 ---
 
