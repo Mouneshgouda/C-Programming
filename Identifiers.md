@@ -1,3 +1,5 @@
+https://colab.research.google.com/drive/1HESsVCu6sIAmaakHmepT1d0XFx7e8iuN#scrollTo=X0qyVPh3gXGj
+
 # 🧠 Identifiers and Variables in C
 
 🗝️ Note: Identifiers are names only — they don’t store data by themselves.
