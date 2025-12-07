@@ -1,5 +1,7 @@
 https://colab.research.google.com/drive/1HESsVCu6sIAmaakHmepT1d0XFx7e8iuN#scrollTo=X0qyVPh3gXGj
 
+
+https://colab.research.google.com/drive/1_xU0RCQfChSvx_LH8HUejc9ZBC8Go14Y#scrollTo=yikxKvG_1tsM
 # 🧠 Identifiers and Variables in C
 
 🗝️ Note: Identifiers are names only — they don’t store data by themselves.
