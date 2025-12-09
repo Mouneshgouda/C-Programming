@@ -5,6 +5,10 @@ https://colab.research.google.com/drive/1_xU0RCQfChSvx_LH8HUejc9ZBC8Go14Y#scroll
 
 
 https://colab.research.google.com/drive/19K4UKIi2-ikKdEWqkssbeBW8iNj7D9VJ#scrollTo=fsbNm3GqxQSz
+
+
+https://colab.research.google.com/drive/1oEHSwg9-GPtMOwYjWAG5EW8r7a5s1Vxq?usp=sharing
+
 # 🧠 Identifiers and Variables in C
 
 🗝️ Note: Identifiers are names only — they don’t store data by themselves.
